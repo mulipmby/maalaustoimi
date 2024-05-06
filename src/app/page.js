@@ -5,14 +5,14 @@ import "@/app/globals.css";
 import Link from 'next/link';
 import Image from 'next/image';
 
-import img1 from '@/../public/Takakuisti_ennen.jpg'
-import img2 from '@/../public/Takakuisti_jälkeen.jpg'
-import img3 from '@/../public/mökki_enne.jpg'
-import img4 from '@/../public/mökki_jälkeen.jpg'
-import img5 from '@/../public/etukuisti_enne.jpg'
-import img6 from '@/../public/etukuisti_jälkeen.jpg'
-import img7 from '@/../public/IMG_2644.jpg';
-import imageright from '@/../public/IMG_2739.jpg';
+import img1 from '/public/Takakuisti_ennen.jpg'
+import img2 from '/public/Takakuisti_jälkeen.jpg'
+import img3 from '/public/mökki_enne.jpg'
+import img4 from '/public/mökki_jälkeen.jpg'
+import img5 from '/public/etukuisti_enne.jpg'
+import img6 from '/public/etukuisti_jälkeen.jpg'
+import img7 from '/public/IMG_2644.jpg';
+import imageright from '/public/IMG_2739.jpg';
 export default function Home() {
   const images = [img1, img2, img3, img4, img5, img6];
   return (

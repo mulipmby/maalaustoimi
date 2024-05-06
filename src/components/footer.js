@@ -2,8 +2,8 @@
 import "@/app/globals.css";
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '@/../public/logo.svg'
-import instagram from '@/../public/instagram-logo.svg'
+import logo from '/public/logo.svg'
+import instagram from '/public/instagram-logo.svg'
 
 export default function Footer() {
 

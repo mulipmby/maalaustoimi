@@ -11,7 +11,7 @@ const Contact = ({info, id}) => {
                 </h1>
               </div>
               <div className="flex flex-col gap-4">
-                <a href="tel:+358442743255" className="bg-white text-teal-900 rounded-full text-lg p-4 px-8">
+                <a href="tel:+358442743255" className="bg-white text-teal-900 rounded-full text-lg p-4 px-8" style={{ whiteSpace: 'nowrap' }}>
                   044 274 3255
                 </a>
                 {/* <button className="border border-white rounded-full text-xl text-white p-4">

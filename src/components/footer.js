@@ -1,8 +1,6 @@
-'use client';
 import "@/app/globals.css";
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '/public/logo.svg'
 import instagram from '/public/instagram-logo.svg'
 
 export default function Footer() {
@@ -15,7 +13,8 @@ export default function Footer() {
                 <div className="flex flex-col md:items-start items-center">
                         <h2 className="font-semibold text-xl text-center md:text-start mb-4">Maalaustoimi Hytönen & Eskola Oy</h2>
                         <p className=" text-center md:text-start">Y-tunnus 3344645-5</p>
-                        <p className="text-center md:text-start">Hongikontie 3 as. 2, 40200 Jyväskylä</p>
+                        <p className="text-center md:text-start">Ainolantie 19 as. 12, 41800 Korpilahti</p>
+                        <Link className="text-center md:text-start" href="mailto:maalaustoimi@gmail.com">maalaustoimi@gmail.com</Link>
                         <Link className="text-center md:text-start" href="tel:0442743255">044 274 3255</Link>
                 </div>
                 {/* <div className="flex flex-col">

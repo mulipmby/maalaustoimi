@@ -70,8 +70,7 @@ export default function Home() {
                   julkisivun kunnostus, meiltä löytyy ratkaisu tarpeisiisi.
                 </p>
                 <p className="w-full">
-                  Varaa ilmainen kartoituskäynti nyt ja anna meidän auttaa sinua
-                  saavuttamaan unelmiesi julkisivu.
+                  Varaa ilmainen kartoituskäynti nyt.
                 </p>
                 <div className="text-center md:text-start mt-4">
                   <a
@@ -125,7 +124,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2 h-full flex flex-col gap-10 text-lg">
                   <h1 className="text-3xl leading-relaxed font-semibold text-teal-950 text-start w-full">
                     Huoltotyöpalvelu – Pidä kotisi tai taloyhtiösi hyvässä
-                    kunnossa hyvässä kunnossa
+                    kunnossa
                   </h1>
                   <p className="w-full">
                     Maalaustöiden lisäksi meiltä onnistuu myös erilaiset huolto-

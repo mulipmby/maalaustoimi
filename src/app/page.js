@@ -3,6 +3,7 @@ import "@/app/globals.css";
 import Nabvar from "@/components/navbar";
 import Footer from "../components/footer";
 import Contact from "@/components/Contact";
+import Employee from "@/components/Employee";
 
 import {
   ReactCompareSlider,
@@ -17,6 +18,8 @@ import imgafter from "/public/etukuisti_jälkeen.webp";
 import img_whitehouse from "/public/IMG_2644.webp";
 import img_brownhouse from "/public/IMG_2739.webp";
 import logo_employees from "/public/boys.webp";
+import hytonen from "/public/hytonen.jpg";
+import eskola from "/public/eskola.jpg";
 
 export default function Home() {
   return (
@@ -199,7 +202,7 @@ export default function Home() {
               </div>
             </div>
             <div className="w-full bg-gray-50">
-              <div className="px-4 w-full max-w-[1600px] m-auto relative h-full rounded-lg flex md:flex-row flex-col-reverse gap-6 md:gap-24 text-start justify-center items-center py-16">
+              <div className="px-4 w-full max-w-[1600px] m-auto relative h-full rounded-lg flex md:flex-row flex-col gap-16 md:gap-24 text-start justify-center items-center py-16">
                 <div className="w-full md:w-1/2 h-full flex flex-col gap-10 text-lg">
                   <h1 className="text-3xl leading-relaxed font-semibold text-teal-950 text-start w-full">
                     Keitä olemme?
@@ -217,47 +220,13 @@ export default function Home() {
                       Päätös ryhtyä yrittäjäksi syntyi halusta toimia oikein ja
                       tehdä huippu laadukasta työtä asiakkaan ehdoilla.
                     </p>
-                    <div className="w-full flex flex-col gap-4">
-                      <div className="flex flex-col w-full">
-                        <h2 className="font-medium w-full">Edvin Eskola</h2>
-                        <a
-                          href="mailto:maalaustoimi.eskola@gmail.com"
-                          className="w-full"
-                        >
-                          maalaustoimi.eskola@gmail.com
-                        </a>
-                        <a href="tel:+358442743255" className="w-full">
-                          044 274 3255
-                        </a>
-                      </div>
-                      <div className="flex flex-col w-full">
-                        <h2 className="font-medium w-full">Antti Hytönen</h2>
-                        <a
-                          href="mailto:maalaustoimi.hytonen@gmail.com"
-                          className="w-full"
-                        >
-                          maalaustoimi.hytonen@gmail.com
-                        </a>
-                        <a href="tel:+358442006896" className="w-full">
-                          044 200 6896
-                        </a>
-                      </div>
-                    </div>
+                  
                   </div>
                 </div>
-                <div className="w-full md:w-1/2 relative">
-                  <div
-                    href="/huoltotyot"
-                    className="rounded-lg w-full h-full block"
-                  >
-                    <div className="relative inset-0 rounded-lg overflow-hidden">
-                      <Image
-                        src={logo_employees}
-                        alt=""
-                        style={{ objectFit: "cover" }}
-                        className="rounded-lg h-[300px] md:h-[600px]"
-                      />
-                    </div>
+                <div className="w-full md:w-1/2 relative items-center flex justify-center h-full">
+                  <div className="flex flex-col gap-10 h-full justify-between">
+                    <Employee img={hytonen} name="Antti Hytönen" email="maalaustoimi.hytonen@gmail.com" number="044 200 6896" />
+                    <Employee img={eskola} name="Edvin Eskola" email="maalaustoimi.eskola@gmail.com" number="044 274 3255" />
                   </div>
                 </div>
               </div>

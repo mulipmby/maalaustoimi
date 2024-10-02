@@ -69,13 +69,11 @@ export default function Home() {
                   Olipa kyseessä sitten uudisrakennuksen viimeistely tai vanhan
                   julkisivun kunnostus, meiltä löytyy ratkaisu tarpeisiisi.
                 </p>
-                <p className="w-full">
-                  Varaa ilmainen kartoituskäynti nyt.
-                </p>
+                <p className="w-full">Varaa ilmainen kartoituskäynti nyt.</p>
                 <div className="text-center md:text-start mt-4">
                   <a
                     href="tel:+358442743255"
-                    className="bg-teal-900 text-white rounded-full text-lg p-4 px-8"
+                    className="bg-teal-900 text-white rounded-full text-lg p-4 px-8 hover:bg-teal-800"
                     style={{ whiteSpace: "nowrap" }}
                   >
                     Soita - 044 274 3255
@@ -219,13 +217,22 @@ export default function Home() {
                       Päätös ryhtyä yrittäjäksi syntyi halusta toimia oikein ja
                       tehdä huippu laadukasta työtä asiakkaan ehdoilla.
                     </p>
-                  
                   </div>
                 </div>
                 <div className="w-full md:w-1/2 relative items-center flex justify-center h-full">
                   <div className="flex flex-col gap-10 h-full justify-between">
-                    <Employee img={hytonen} name="Antti Hytönen" email="maalaustoimi.hytonen@gmail.com" number="044 200 6896" />
-                    <Employee img={eskola} name="Edvin Eskola" email="maalaustoimi.eskola@gmail.com" number="044 274 3255" />
+                    <Employee
+                      img={hytonen}
+                      name="Antti Hytönen"
+                      email="maalaus.hytonen@gmail.com"
+                      number="044 200 6896"
+                    />
+                    <Employee
+                      img={eskola}
+                      name="Edvin Eskola"
+                      email="maalaus.eskola@gmail.com"
+                      number="044 274 3255"
+                    />
                   </div>
                 </div>
               </div>

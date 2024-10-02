@@ -10,7 +10,7 @@ export default function Navbar() {
         <Image src={logo} alt="logo" height={50} />
         <Link
           href="#contact"
-          className="rounded-full py-3 px-6 bg-teal-900 text-white font-bold uppercase text-sm"
+          className="rounded-full py-3 px-6 bg-teal-900 hover:bg-teal-800 text-white font-bold uppercase text-sm"
           style={{ whiteSpace: "nowrap" }}
         >
           Pyydä tarjous

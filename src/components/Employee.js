@@ -12,12 +12,12 @@ const Employee = ({ img, name, email, number }) => {
       <div className="flex flex-col h-full gap-5 text-center md:text-start">
         <h2 className="font-medium text-lg text-teal-950">{name}</h2>
         <div className="flex flex-col gap-1">
-            <a href={`mailto:${email}`} className="">
-              {email}
-            </a>
-            <a href={`tel:+358${number.substring(1)}`} className="">
-              {number}
-            </a>
+          <a href={`mailto:${email}`} className="">
+            {email}
+          </a>
+          <a href={`tel:+358${number.substring(1)}`} className="">
+            {number}
+          </a>
         </div>
       </div>
     </div>

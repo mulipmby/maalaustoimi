@@ -8,7 +8,7 @@ const Contact = ({ info, id }) => {
         <div className="flex flex-col gap-4">
           <a
             href="tel:+358442743255"
-            className="bg-white text-teal-900 rounded-full text-lg p-4 px-8"
+            className="bg-white hover:bg-teal-900 hover:text-white border border-white text-teal-900 rounded-full text-lg p-4 px-8"
             style={{ whiteSpace: "nowrap" }}
           >
             044 274 3255
